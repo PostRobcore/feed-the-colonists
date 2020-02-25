@@ -2,22 +2,24 @@
 
 *by [@postrobcore](https://twitter.com/postrobcore)*
 
-This mod allows you to produce 4 simple, fine, lavish, or survival meals at a time from any stove workstation. It also allows creating 4x as much kibble or pemmican at a time. The cost of the work is set to be 3.5 X the base amount.
+This mod allows making 4x kibble and 4x pemmican. The cost of the work is set to be 3.5 X the base amount.
 
-|Base Game|Modded
-|-|-
-|🥪|🥪🥪🥪🥪
+This mod used to also do 4x meals but...
+
+## 🙀 MY MOD GOT EATEN 🙀
+
+I looked into the Defs for RimWorld 1.1 and it looks like creating four stacks of Simple, Fine, Lavish, and Package Survival meals have been added to the base game! I'm surprised!
+
+I have changed this mod as of version 1.2 to only have the recipes for pemmican x4 and kibble x4.
 
 ## 🍳 Work Amounts ⏲
 
 ### Original Values
 
+**Note: Newest version only has pemmican x4 and kibble x4.**
+
 |Meal|Work to Make|Skill
 |-|-|-
-|Simple Meal|300|0
-|Fine Meal|450|6
-|Lavish Meal|800|8
-|Packaged Survival Meal|450|8
 |Pemmican|700|0
 |Kibble|450|0
 
@@ -25,10 +27,6 @@ This mod allows you to produce 4 simple, fine, lavish, or survival meals at a ti
 
 |Meal|Work to Make|Skill
 |-|-|-
-|4 Simple Meals|1050|0
-|4 Fine Meals|1575|6
-|4 Lavish Meals|2800|8
-|4 Packaged Survival Meals|1575|8
 |4 Pemmicans|2450|0
 |4 Kibble|1575|0
 
