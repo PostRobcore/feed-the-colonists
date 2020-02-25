@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Feed The Colonists</name>
+  <author>@postrobcore</author>
+  <url>https://twitter.com/postrobcore</url>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+  <description>v1.1.3 for Version 1.0!\n\nAllows producing four simple, fine, lavish, or survival meals from any cook stove. Also allows making four stacks of pemmican or kibble. Skill and ingredient requirement is the same, output is 4x default, and the work requirement is 3.5x default.</description>
+</ModMetaData>
