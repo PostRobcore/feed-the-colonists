@@ -16,14 +16,14 @@ I have changed this mod as of version 1.2 to only have the recipes for pemmican 
 
 ### Original Values
 
-**Note: Newest version only has pemmican x4 and kibble x4.**
-
 |Meal|Work to Make|Skill
 |-|-|-
 |Pemmican|700|0
 |Kibble|450|0
 
 ### Mod Values
+
+**Note: Newest version only has pemmican x4 and kibble x4.**
 
 |Meal|Work to Make|Skill
 |-|-|-
