@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Kibble and Pemmican from Recipes_Food.xml and Items_Food.xml -->
+
+  <Make4Kibble.label>Produziere 4 Trockenfutter</Make4Kibble.label>
+  <Make4Kibble.description>Produziert 4 Stapel Trockenfutter, indem man rohes Fleisch und Pflanzen zusammenmischt.</Make4Kibble.description>
+  <Make4Kibble.jobString>Produziere 4 Stapel Trockenfutter.</Make4Kibble.jobString>
+
+  <Make4Pemmican.label>Produziere 4 Pemmikan</Make4Pemmican.label>
+  <Make4Pemmican.description>Produziert 4 Stapel Pemmikan, eine konservierte Kombination aus Fleisch und pflanzlichen Lebensmitteln. Es schmeckt nicht besonders gut, hält aber ohne Kühlung lange.</Make4Pemmican.description>
+  <Make4Pemmican.jobString>Produziere 4 Stapel Pemmikan.</Make4Pemmican.jobString>
+
+
+</LanguageData>
