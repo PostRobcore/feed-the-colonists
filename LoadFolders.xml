@@ -1,0 +1,9 @@
+<loadFolders>
+  <!-- By default, do not load anything that could conflict with the latest stable version of RimWorld. -->
+  <default>
+    <li>1.1</li>
+  </default>
+  <v1.0>
+    <li>1.0</li>
+  </v1.0>
+</loadFolders>

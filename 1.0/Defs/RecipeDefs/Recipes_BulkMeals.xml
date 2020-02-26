@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- Meals from Recipe_Meals.xml and Items_Food.xml -->
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook4MealSimple</defName>
+        <label>cook 4 simple meals</label>
+        <description>Cooks four straightforward meals from one ingredient.</description>
+        <jobString>Cooking four simple meals.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                <categories>
+                    <li>FoodRaw</li>
+                </categories>
+                </filter>
+                <count>2.0</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealSimple>4</MealSimple>
+        </products>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+        <workAmount>1050</workAmount>
+    </RecipeDef>
+    
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook4MealFine</defName>
+        <label>cook 4 fine meals</label>
+        <description>Cooks four somewhat complex meal from a combination of meat and plant ingredients.</description>
+        <jobString>Cooking four fine meals.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>1.0</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>1.0</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealFine>4</MealFine>
+        </products>
+        <skillRequirements>
+            <Cooking>6</Cooking>
+        </skillRequirements>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+        <workAmount>1575</workAmount>
+    </RecipeDef>
+
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook4MealLavish</defName>
+        <label>cook 4 lavish meals</label>
+        <description>Cooks four very complex meals from a combination of meat and plant ingredients. Much of the ingredients are wasted.</description>
+        <jobString>Cooking four lavish meals.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>2.0</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>2.0</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealLavish>4</MealLavish>
+        </products>
+        <skillRequirements>
+            <Cooking>8</Cooking>
+        </skillRequirements>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+        <workAmount>2800</workAmount>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="CookMealBase">
+        <defName>Cook4MealSurvival</defName>
+        <label>cook 4 packaged survival meals</label>
+        <description>Prepares four packaged survival meal from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+        <jobString>Cooking four survival meals.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>1.2</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>1.2</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealSurvivalPack>4</MealSurvivalPack>
+        </products>
+        <skillRequirements>
+            <Cooking>8</Cooking>
+        </skillRequirements>
+        <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+        <workAmount>1575</workAmount>
+    </RecipeDef>
+
+    <!-- Kibble and Pemmican from Recipes_Food.xml and Items_Food.xml -->
+    <RecipeDef>
+        <defName>Make4Kibble</defName>
+        <label>make 4 kibble</label>
+        <description>Make 4 stacks of animal kibble by combining raw meat and plants.</description>
+        <jobString>Making 4 stacks of kibble.</jobString>
+        <workAmount>1575</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                        <li>AnimalProductRaw</li>
+                    </categories>
+                </filter>
+                <count>4</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                    <thingDefs>
+                        <li>Hay</li>
+                    </thingDefs>
+                </filter>
+                <count>4</count>
+            </li>
+        </ingredients>
+        <products>
+            <Kibble>200</Kibble>
+        </products>
+        <fixedIngredientFilter>
+            <categories>
+                <li>FoodRaw</li>
+            </categories>
+            <thingDefs>
+                <li>Hay</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <categories>
+                <li>Foods</li>
+            </categories>
+            <disallowedCategories>
+                <li>EggsFertilized</li>
+            </disallowedCategories>
+            <disallowedThingDefs>
+                <li>InsectJelly</li>
+                <li>Meat_Human</li>
+                <li>Meat_Megaspider</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+        <recipeUsers>
+            <li>TableButcher</li>
+        </recipeUsers>
+    </RecipeDef>
+    
+    <RecipeDef Name="Make4Pemmican">
+        <defName>Make4Pemmican</defName>
+        <label>make 4 pemmican</label>
+        <description>Makes four stacks of pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
+        <jobString>Making four stacks of pemmican.</jobString>
+        <workAmount>2450</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>MeatRaw</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <Pemmican>72</Pemmican>
+        </products>
+        <fixedIngredientFilter>
+            <categories>
+                <li>FoodRaw</li>
+            </categories>
+            <disallowedCategories>
+                <li>AnimalProductRaw</li>
+            </disallowedCategories>
+            <specialFiltersToDisallow>
+                <li>AllowPlantFood</li>
+            </specialFiltersToDisallow>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <categories>
+                <li>FoodRaw</li>
+            </categories>
+            <disallowedCategories>
+                <li>EggsFertilized</li>
+            </disallowedCategories>
+            <disallowedThingDefs>
+                <li>InsectJelly</li>
+                <li>Meat_Human</li>
+                <li>Meat_Megaspider</li>
+            </disallowedThingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+        <researchPrerequisite>Pemmican</researchPrerequisite>
+        <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+        </recipeUsers>
+    </RecipeDef>
+</Defs>
