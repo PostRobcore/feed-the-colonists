@@ -18,30 +18,46 @@ I have changed this mod as of version 1.2 to only have the recipes for pemmican 
 
 |Meal|Work to Make|Skill
 |-|-|-
+|Simple Meal|300|0
+|Fine Meal|450|6
+|Lavish Meal|800|8
+|Packaged Survival Meal|450|8
 |Pemmican|700|0
 |Kibble|450|0
 
 ### Mod Values
 
-**Note: Newest version only has pemmican x4 and kibble x4.**
+**Note: If you run RimWorld v1.1 or higher, only pemmican x4 and kibble x4 will be added.**
 
 |Meal|Work to Make|Skill
 |-|-|-
+|4 Simple Meals|1050|0
+|4 Fine Meals|1575|6
+|4 Lavish Meals|2800|8
+|4 Packaged Survival Meals|1575|8
 |4 Pemmicans|2450|0
 |4 Kibble|1575|0
 
-## 💻 Can I add it to my game? 📄
+## 💻 Can I add it to my game in progress? 💻
 
 Yes, most likely. This mod adds some recipe Defs and RimWorld handles removing and adding them pretty well. The outputs of the recipe are the items from the vanilla game, so this mod is not needed for anything that it produces. It just adds some recipes to some workstations. 😸
 
 ## 🕸📄 Can I have an older version of the mod? 📄🕸
 
-Yes! It is available on the Mod DB page!
+Yes! It is available on the Mod DB page and in the relaeses here!
+
+Releases: <https://github.com/PostRobcore/feed-the-colonists/releases>
 
 ## 🔗 Links 🔗
 
 * Steam Workshop: <https://steamcommunity.com/sharedfiles/filedetails/?id=729690064>
 * Mod DB: <https://www.moddb.com/mods/feed-the-colonists>
+
+## 📜 License & Contributing 📜
+
+MIT License, feel free to remix or edit this mod as much as you'd like.
+
+If you want to contribute to this mod, please create a pull request to master.
 
 ## 🙌 Thank You 🙌
 
