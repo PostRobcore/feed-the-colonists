@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- Kibble and Pemmican from Recipes_Food.xml and Items_Food.xml -->
+  <!-- Kibble from Recipes_Food.xml and Items_Food.xml -->
   <RecipeDef>
     <defName>Make4Kibble</defName>
     <label>make kibble x4</label>
@@ -62,71 +62,6 @@
     <workSkill>Cooking</workSkill>
     <recipeUsers>
       <li>TableButcher</li>
-    </recipeUsers>
-  </RecipeDef>
-  
-  <RecipeDef Name="Make4Pemmican">
-    <defName>Make4Pemmican</defName>
-    <label>make pemmican x4</label>
-    <description>Makes four stacks of pemmican, a preserved combination of meat and plant food. It doesn't taste amazing, but lasts a long time without refrigeration.</description>
-    <jobString>Making 4 stacks of pemmican.</jobString>
-    <workAmount>2450</workAmount>
-    <workSpeedStat>CookSpeed</workSpeedStat>
-    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_CookMeal</soundWorking>
-    <allowMixingIngredients>true</allowMixingIngredients>
-    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>MeatRaw</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <categories>
-            <li>PlantFoodRaw</li>
-          </categories>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <products>
-      <Pemmican>72</Pemmican>
-    </products>
-    <fixedIngredientFilter>
-      <categories>
-        <li>FoodRaw</li>
-      </categories>
-      <disallowedCategories>
-        <li>AnimalProductRaw</li>
-      </disallowedCategories>
-      <specialFiltersToDisallow>
-        <li>AllowPlantFood</li>
-      </specialFiltersToDisallow>
-    </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <categories>
-        <li>FoodRaw</li>
-      </categories>
-      <disallowedCategories>
-        <li>EggsFertilized</li>
-      </disallowedCategories>
-      <disallowedThingDefs>
-        <li>InsectJelly</li>
-        <li>Meat_Human</li>
-        <li>Meat_Megaspider</li>
-      </disallowedThingDefs>
-    </defaultIngredientFilter>
-    <workSkill>Cooking</workSkill>
-    <researchPrerequisite>Pemmican</researchPrerequisite>
-    <recipeUsers>
-      <li>ElectricStove</li>
-      <li>FueledStove</li>
     </recipeUsers>
   </RecipeDef>
 </Defs>
