@@ -1,8 +1,10 @@
 # 🥪 Feed the Colonists 🥪
 
-*by postrobcore - [twitter](https://twitter.com/postrobcore) - [youtube](https://youtube.com/c/postrobcore)*
+*by postrobcore // [twitter](https://twitter.com/postrobcore) // [youtube](https://youtube.com/c/postrobcore)*
 
-This mod allows making x4 kibble and x4 pemmican. The cost of the work is set to be 3.5 times the base amount.
+<https://postrobcore.net>
+
+This mod allows making x4 kibble. The cost of the work is set to be 3.5 times the base amount.
 
 This mod used to also do x4 meals but...
 
@@ -62,3 +64,7 @@ If you want to contribute to this mod, please create a pull request to master.
 ## 🙌 Thank You 🙌
 
 I first released this mod in 2016 and I can't believe how many people have downloaded it over the years. It absolutely boggles my mind.
+
+1.2 is the final update for this mod. Please see my blog for a recap of this mod and information on future projects!! 😸
+
+<https://postrobcore.net/blog/feed-the-colonists-mod>
