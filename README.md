@@ -1,16 +1,18 @@
 # 🥪 Feed the Colonists 🥪
 
-*by [@postrobcore](https://twitter.com/postrobcore)*
+*by postrobcore // [twitter](https://twitter.com/postrobcore) // [youtube](https://youtube.com/c/postrobcore)*
 
-This mod allows making 4x kibble and 4x pemmican. The cost of the work is set to be 3.5 X the base amount.
+<https://postrobcore.net>
 
-This mod used to also do 4x meals but...
+This mod allows making x4 kibble. The cost of the work is set to be 3.5 times the base amount.
+
+This mod used to also do x4 meals but...
 
 ## 🙀 MY MOD GOT EATEN 🙀
 
-I looked into the Defs for RimWorld 1.1 and it looks like creating four stacks of Simple, Fine, Lavish, and Package Survival meals have been added to the base game! I'm surprised!
+I looked into the Defs for RimWorld 1.1 and it looks like creating four stacks of Simple, Fine, Lavish, and Package Survival meals (*and pemmican too*) have been added to the base game! I'm surprised!
 
-I have changed this mod as of version 1.2 to only have the recipes for pemmican x4 and kibble x4.
+I have changed this mod to only fill the missing recipes for 1.1, and fill all recipes for 1.0.
 
 ## 🍳 Work Amounts ⏲
 
@@ -27,7 +29,7 @@ I have changed this mod as of version 1.2 to only have the recipes for pemmican 
 
 ### Mod Values
 
-**Note: If you run RimWorld v1.1 or higher, only pemmican x4 and kibble x4 will be added.**
+**Note: If you run RimWorld 1.1 or higher, kibble x4 will be added.**
 
 |Meal|Work to Make|Skill
 |-|-|-
@@ -62,3 +64,7 @@ If you want to contribute to this mod, please create a pull request to master.
 ## 🙌 Thank You 🙌
 
 I first released this mod in 2016 and I can't believe how many people have downloaded it over the years. It absolutely boggles my mind.
+
+1.2 is the final update for this mod. Please see my blog for a recap of this mod and information on future projects!! 😸
+
+<https://postrobcore.net/blog/feed-the-colonists-mod>
