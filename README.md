@@ -61,6 +61,12 @@ MIT License, feel free to remix or edit this mod as much as you'd like.
 
 If you want to contribute to this mod, please create a pull request to master.
 
+## ✨ Future of the Mod ✨
+
+The Feed the Colonists mod will be supported through RimWorld V1.2 then will go unsupported.
+
+I am working on a Feed The Colonists standalone game (yes, really), when I have more information to show I'll post it on my twitter ([@postrobcore](https://twitter.com/postrobcore)) and [my blog](https://postrobcore.net).
+
 ## 🙌 Thank You 🙌
 
 I first released this mod in 2016 and I can't believe how many people have downloaded it over the years. It absolutely boggles my mind.
