@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Kibble and Pemmican from Recipes_Food.xml and Items_Food.xml -->
+
+  <Make4Kibble.label>Produziere 4 Trockenfutter</Make4Kibble.label>
+  <Make4Kibble.description>Produziert 4 Stapel Trockenfutter, indem man rohes Fleisch und Pflanzen zusammenmischt.</Make4Kibble.description>
+  <Make4Kibble.jobString>Produziere 4 Stapel Trockenfutter.</Make4Kibble.jobString>
+
+</LanguageData>

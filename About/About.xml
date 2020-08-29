@@ -2,19 +2,30 @@
 <ModMetaData>
   <name>Feed The Colonists</name>
   <author>PostRobcore</author>
-  <url>https://twitter.com/postrobcore</url>
+  <url>https://postrobcore.net</url>
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <packageId>postrobcore.feedthecolonists</packageId>
-  <description>v1.2.2 for Version 1.1 and 1.0!
+  <description>v1.2.3 (final) for Version 1.X!
 
 My mod got eaten by the Core game!
 
-Adds x4 kibble for v1.1.
+This is the final update for this mod since the main functionality has been absorbed into the game.
+
+I know I'm just the food mod guy, but check out my blog for info on this mod and future projects, including a Feed The Colonists standalone game (yes, really!). I do game development as a hobby and I post prototypes on my site.
+
+https://postrobcore.net/blog/feed-the-colonists-mod/
+
+Mod info:
+
+Adds x4 kibble for v1.1 and higher.
 Adds x4 meals, pemmican, and kibble for v1.0.
 
 Skill and ingredient requirements are the same, output is 4x default, and the work requirement is 3.5x default.
+
+Check out my blog for future projects of mine: https://postrobcore.net
   </description>
 </ModMetaData>
